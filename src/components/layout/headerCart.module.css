@@ -26,7 +26,7 @@
 
 .badge {
   background-color: #2a392c;
-  padding: 0.20rem 0.80rem;
+  padding: 0.30rem 0.80rem;
   border-radius: 25px;
   margin-left: 1rem;
   font-weight: bold;
@@ -38,23 +38,41 @@
 } */
 
 .bump {
-  animation: bump 300ms ease-out;
+  animation: bump 300ms linear;
+}
+.button-bump {
+  animation: button-bump 300ms linear;
 }
 
 @keyframes bump {
   0% {
     transform: scale(1);
   }
-  10% {
-    transform: scale(0.9);
-  }
-  30% {
-    transform: scale(1.1);
-  }
   50% {
-    transform: scale(1.15);
+    transform: scale(0);
   }
   100% {
     transform: scale(1);
+  }
+}
+@keyframes button-bump {
+  0% {
+    transform:skewY(0deg);
+  }
+  25% {
+    transform:skewY(-10deg);
+    /* transform: scale(0); */
+  }
+  50% {
+    transform:skewY(0deg);
+    /* transform: scale(0); */
+  }
+  75% {
+    transform:skewY(10deg);
+    /* transform: scale(0); */
+  }
+  100% {
+    transform:skewY(0deg);
+    /* transform: scale(1); */
   }
 }

@@ -11,7 +11,8 @@ const HeaderCart = (props) => {
         return curValue + item.amount;
     },0)
 
-    const buttonStyles = `${styles.button} ${isItemAdded && styles.bump}`;
+    const badgeStyles = `${styles.badge} ${isItemAdded && styles.bump}`;
+    const buttonStyles = `${styles.button} ${isItemAdded && styles['button-bump']}`;
 
     useEffect(() => {
         if (cartCtx.items.length === 0) {
@@ -34,7 +35,7 @@ const HeaderCart = (props) => {
                 <CartIcon />
             </span>
             <span>Cart</span>
-            <span className={styles.badge}>{totalCartItems}</span>
+            <span className={badgeStyles}>{totalCartItems}</span>
         </button>
     )
 }
