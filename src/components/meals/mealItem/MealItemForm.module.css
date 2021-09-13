@@ -21,3 +21,7 @@
   background-color: #3e6441;
   border-color: #3e6441;
 }
+
+.form button:active {
+  transform: scale(0.9);
+}
