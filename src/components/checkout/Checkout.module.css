@@ -75,3 +75,9 @@
 .error{
   color: #aa0b20;
 }
+
+@media (max-width: 600px){
+  .form{
+    height: 13rem;
+  }
+}
