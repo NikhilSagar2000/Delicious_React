@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Delicious_React/static/css/main.548ae67d.chunk.css",
+    "main.js": "/Delicious_React/static/js/main.114bf463.chunk.js",
+    "main.js.map": "/Delicious_React/static/js/main.114bf463.chunk.js.map",
+    "runtime-main.js": "/Delicious_React/static/js/runtime-main.a20aed0c.js",
+    "runtime-main.js.map": "/Delicious_React/static/js/runtime-main.a20aed0c.js.map",
+    "static/js/2.8b257ba6.chunk.js": "/Delicious_React/static/js/2.8b257ba6.chunk.js",
+    "static/js/2.8b257ba6.chunk.js.map": "/Delicious_React/static/js/2.8b257ba6.chunk.js.map",
+    "index.html": "/Delicious_React/index.html",
+    "static/css/main.548ae67d.chunk.css.map": "/Delicious_React/static/css/main.548ae67d.chunk.css.map",
+    "static/js/2.8b257ba6.chunk.js.LICENSE.txt": "/Delicious_React/static/js/2.8b257ba6.chunk.js.LICENSE.txt",
+    "static/media/meals.13bcd8f3.jpg": "/Delicious_React/static/media/meals.13bcd8f3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a20aed0c.js",
+    "static/js/2.8b257ba6.chunk.js",
+    "static/css/main.548ae67d.chunk.css",
+    "static/js/main.114bf463.chunk.js"
+  ]
+}
