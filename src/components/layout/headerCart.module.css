@@ -76,3 +76,12 @@
     /* transform: scale(1); */
   }
 }
+
+@media (max-width: 600px){
+  .hide{
+    display: none;
+  }
+  .button {
+    padding: 10px 20px;
+  }
+}

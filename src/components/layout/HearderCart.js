@@ -34,7 +34,7 @@ const HeaderCart = (props) => {
             <span className={styles.icon}>
                 <CartIcon />
             </span>
-            <span>Cart</span>
+            <span className={styles.hide}>Cart</span>
             <span className={badgeStyles}>{totalCartItems}</span>
         </button>
     )
