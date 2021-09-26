@@ -55,19 +55,29 @@ const AvailableMeals = () => {
     );
   }
 
-  const meals = allMeals.map((meal) => (
-    <MealItem
-      id={meal.id}
-      key={meal.id}
-      name={meal.name}
-      description={meal.description}
-      price={meal.price}
-    />
-  ));
+  // const meals = allMeals.map((meal) => (
+  //   <MealItem
+  //     id={meal.id}
+  //     key={meal.id}
+  //     name={meal.name}
+  //     description={meal.description}
+  //     price={meal.price}
+  //   />
+  // ));
     return (
       <section className={styles.meals}>
         <Card>
-          <ul>{meals}</ul>
+          <ul>
+            {allMeals.map((meal) => (
+              <MealItem
+                id={meal.id}
+                key={meal.id}
+                name={meal.name}
+                description={meal.description}
+                price={meal.price}
+              />
+            ))}
+          </ul>
         </Card>
       </section>
     );

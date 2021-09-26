@@ -35,11 +35,12 @@ const Cart = props => {
             ))}
         </ul>
     )
-    const totalAmount = `$${cartCtx.totalAmount.toFixed(2)}`;
+    const totalAmount = `₹${cartCtx.totalAmount.toFixed(2)}`;
 
     const orderHandler = () => {
         setIsCheckingOut(true);
-    }
+  }
+  
     const formSubmissionHandler = async (userData) => {
         setIsConfirmingOrder(true);
         await fetch(
@@ -59,7 +60,7 @@ const Cart = props => {
     }
     const modalContent = (
       <React.Fragment>
-        {cartItems}
+        {!isCheckingOut && cartItems}
         <div className={styles.total}>
           <span>Total Amount</span>
           <span>{totalAmount}</span>

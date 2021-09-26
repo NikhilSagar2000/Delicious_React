@@ -1,7 +1,5 @@
 .form {
   margin: 1rem 0;
-  height: 19rem;
-  overflow: auto;
 }
 
 .control {
@@ -74,10 +72,4 @@
 
 .error{
   color: #aa0b20;
-}
-
-@media (max-width: 600px){
-  .form{
-    height: 13rem;
-  }
 }
